@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="port.css" />
+    <script defer src="nav.js"></script>
+    <style>
+     
+
+      .skills {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+      }
+      .skills section {
+        text-align: center;
+        /* align-items: center;
+        align-self: center; */
+      }
+      .skills-child {
+        box-shadow: 3px 3px 3px rgb(0, 0, 0);
+        padding: 1em;
+        max-width: 45ch;
+        border-radius: 4px;
+        background-color: #12181b;
+        color:rgb(252, 248, 235);
+
+      }
+      .skills-child:hover{
+        background-color: #27AE60;
+
+      }
+      @media (max-width: 800px) {
+        .skills {
+          flex-direction: column;
+          margin: auto;
+        }
+       
+        
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="header">
+        <div class="navbar">
+          <div class="logo"><b>Santosh</b></div>
+          <ul class="nav-list" id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div id="ham_icon">
+            <img src="./img/hamburger (1).png" alt="click" />
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="skills">
+          <div class="skills-child">
+            <section>Frontend Web</section>
+
+            <div class="cplus-intro">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque dolorem excepturi, voluptatibus, unde sint nihil labore
+              libero dignissimos quasi neque itaque tempora necessitatibus.
+              Provident veniam sapiente aspernatur ab nihil accusamus sequi,
+              dolore numquam ea distinctio sint voluptates. Quidem, inventore
+              quisquam!
+            </div>
+          </div>
+          <div class="skills-child">
+            <section>C++ Programming</section>
+
+            <div class="cplus-intro">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque dolorem excepturi, voluptatibus, unde sint nihil labore
+              libero dignissimos quasi neque itaque tempora necessitatibus.
+              Provident veniam sapiente aspernatur ab nihil accusamus sequi,
+              dolore numquam ea distinctio sint voluptates. Quidem, inventore
+              quisquam!
+            </div>
+          </div>
+          <div class="skills-child">
+            <section>Javascript</section>
+
+            <div class="cplus-intro">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque dolorem excepturi, voluptatibus, unde sint nihil labore
+              libero dignissimos quasi neque itaque tempora necessitatibus.
+              Provident veniam sapiente aspernatur ab nihil accusamus sequi,
+              dolore numquam ea distinctio sint voluptates. Quidem, inventore
+              quisquam!
+            </div>
+          </div>
+        </div>
+        <div class="skill-rank">
+         <button>Javascript</button>
+      
+      </div>
+
+      <footer>
+        <div class="foot-container">
+          <div class="left-section">
+            <div class="social">
+              <div class="social_name">Social Media sites</div>
+              <div class="social_sites">
+                <a href="#" class="sites">
+                  <img src="./img/fb.png" alt="fb" /> </a
+                ><a href="#" class="sites">
+                  <img src="./img/insta.png" alt="insta" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="right-section">
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
